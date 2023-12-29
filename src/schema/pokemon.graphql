@@ -1,0 +1,12 @@
+type Pokemon {
+  id: Int
+  name: String
+  species: String
+  description: String
+  type: [String]
+  imageUrl: String
+}
+
+type Query {
+  pokemons(search: String): [Pokemon]
+}
