@@ -12,13 +12,15 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "@apollo/server": "^4.9.4",
+    "@apollo/server": "^4.10.0",
+    "@as-integrations/aws-lambda": "^3.1.0",
     "copy": "^0.3.2",
     "fs": "^0.0.1-security",
     "graphql": "^16.8.1"
   },
   "devDependencies": {
     "@types/node": "^20.8.8",
+    "serverless-plugin-typescript": "^2.1.5",
     "typescript": "^5.2.2"
   }
 }
